@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAT Love Compatibility Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="splashScreen" class="splash-screen">
+    <h1>Welcome to SAT Love Compatibility Calculator</h1>
+    <p id="quote"></p>
+  </div>
+  <div class="container" id="mainContent" style="display: none;">
+    <div id="datetime"></div>
+    <h1>SAT Love Compatibility Calculator</h1>
+    <button id="zodiacButton" onclick="showForm()">Press me🔼to know your love compatibility status</button>
+    <div class="form" id="compatibilityForm" style="display: none;">
+      <label for="name1">Enter Name of Partner 1:</label>
+      <input type="text" id="name1">
+      <label for="birthdate1">Enter Birth Date of Partner 1:</label>
+      <input type="date" id="birthdate1">
+      <label for="name2">Enter Name of Partner 2:</label>
+      <input type="text" id="name2">
+      <label for="birthdate2">Enter Birth Date of Partner 2:</label>
+      <input type="date" id="birthdate2">
+      <button onclick="calculateCompatibility()">Calculate</button>
+    </div>
+    <div id="result"></div>
+    <footer>
+      &copy; 2024 SAT Love Compatibility Calculator|
+      <a href="https://www.instagram.com/iamsatvik20/?hl=en"><span style="font-size: 24px;">𝐈</span> Instagram</a> |
+      <a href="www.linkedin.com/in/peddisetty-venkat-satvik-363903284"><span style="font-size: 24px;">𝕷</span> LinkedIn</a> |
+      <a href="https://github.com/SATVIK202004"><span style="font-size: 24px;">𝑮</span> GitHub</a>
+      <h2>Developer Details</h2>
+      <p>Developer Name: PEDDISETTY VENKAT SATVIK</p>
+      <p>Contact Email: satvikpeddisetty20@gmail.com</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
