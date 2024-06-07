@@ -13,5 +13,5 @@ A web-based application that calculates love compatibility based on names and bi
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/SAT-love-compatibility-calculator.git
+   git clone https://github.com/SATVIK202004/SAT-love-compatibility-calculator.git
 #love-calculator #compatibility-checker #zodiac #astrology #web-app
